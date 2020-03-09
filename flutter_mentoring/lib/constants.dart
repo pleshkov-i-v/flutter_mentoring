@@ -1,0 +1,1 @@
+const kProjectName = 'Module 2';
