@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'constants.dart';
-import 'homePage.dart';
+import 'first_page.dart';
+import 'second_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(title: kProjectName),
+      home: FirstPage(title: kProjectName),
     );
   }
 }
