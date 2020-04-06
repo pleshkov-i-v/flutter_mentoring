@@ -25,7 +25,7 @@ class SecondPage extends StatelessWidget {
                 },
               );
             } else if (snapshot.hasError) {
-              return getErrorView(snapshot.error);
+              return getErrorView(snapshot.error.toString());
             } else {
               return getIndicatorView();
             }
