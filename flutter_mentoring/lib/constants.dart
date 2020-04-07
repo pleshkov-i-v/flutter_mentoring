@@ -1,1 +1,1 @@
-const kProjectName = 'Module 2';
+const kProjectName = 'Module 8';
